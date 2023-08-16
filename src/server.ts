@@ -1,14 +1,7 @@
-import express, { Express, Request, Response } from 'express';
-import 'dotenv/config';
+import { envConfig } from '@configs/env.config';
+import { logger } from '@configs/logger.config';
+import app from 'app';
 
-const server: Express = express();
-const PORT = process.env.PORT;
-server.use(express.json());
-
-server.get('/', (req: Request, res: Response) => {
-  res.json('hiii');
-});
-
-server.listen(PORT, () => {
-  console.log(`Listen port ${PORT}`);
+app.listen(envConfig.PORT, () => {
+  logger.info(`Listen port ${envConfig.PORT}`);
 });
