@@ -60,10 +60,10 @@ if (process.env.NODE_ENV !== 'production') {
   );
 }
 
-const stream = {
-  write: (message: string) => {
-    logger.info(message.substring(0, message.lastIndexOf('\n')));
-  },
-};
+// const stream = {
+//   write: (message: string) => {
+//     logger.http(message.substring(0, message.lastIndexOf('\n')));
+//   },
+// };
 
-export { stream, logger };
+export { logger };

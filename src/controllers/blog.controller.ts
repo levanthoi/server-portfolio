@@ -1,7 +1,7 @@
+import { logger } from '@configs/logger.config';
 import { NextFunction, Request, Response } from 'express';
 
 export const getBlogs = (req: Request, res: Response, next: NextFunction) => {
-  res.json({
-    message: 'success',
-  });
+  logger.info(' ===== Checking API ======');
+  res.json({});
 };
