@@ -3,6 +3,10 @@ import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 
 const isDev = process.env.NODE_ENV === 'development';
 
+interface StatusError extends Error {
+  status?: number;
+}
+
 // const errorDev: ErrorRequestHandler = async (err, req: Request, res: Response) => {
 //   const statusCode = err.statusCode || '500';
 //   console.log('err', statusCode);
@@ -15,28 +19,28 @@ const isDev = process.env.NODE_ENV === 'development';
 
 // not found
 export const notFound = (req: Request, res: Response, next: NextFunction) => {
-  const error = new Error(`Not Found: ${req.originalUrl}`);
-  res.status(404);
+  const error = new Error(`Not Found: ${req.originalUrl}`) as StatusError;
+  error['status'] = 404;
   next(error);
 };
 
 export const errorHandler: ErrorRequestHandler = (
-  err,
+  err: StatusError,
   req: Request,
   res: Response,
   next: NextFunction,
 ) => {
-  const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
+  const statusCode = err['status'] || 500;
 
   // Logger
   if (!isDev) {
     logger.error('ERROR ', err);
   }
-  console.log(err.stack);
+  console.log(err.message);
 
   res.status(statusCode).json({
     succees: false,
-    message: err.message,
-    stack: isDev ? err?.stack : '',
+    message: err.message || 'Internal Server Error',
+    stack: isDev ? err?.stack : 'Stack Production',
   });
 };
