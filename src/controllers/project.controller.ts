@@ -18,7 +18,7 @@ export const getProjects = asyncHandler(async (req: Request, res: Response, next
     });
   } catch (error: any) {
     // throw new Error(error);
-    // console.log('err', error);
+    console.log('err project', error);
     next(error);
   }
 });

@@ -21,6 +21,7 @@ interface StatusError extends Error {
 export const notFound = (req: Request, res: Response, next: NextFunction) => {
   const error = new Error(`Not Found: ${req.originalUrl}`) as StatusError;
   error['status'] = 404;
+  console.log('err notfound ', error);
   next(error);
 };
 
@@ -36,7 +37,7 @@ export const errorHandler: ErrorRequestHandler = (
   if (!isDev) {
     logger.error('ERROR ', err);
   }
-  console.log(err.message);
+  console.log('err handler', err.message);
 
   res.status(statusCode).json({
     succees: false,
