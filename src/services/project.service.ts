@@ -152,6 +152,6 @@ export const getProjectsService = async () => {
       };
     }),
   );
-
+  console.log('project service');
   return projects;
 };

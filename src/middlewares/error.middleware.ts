@@ -32,6 +32,7 @@ export const errorHandler: ErrorRequestHandler = (
   if (!isDev) {
     logger.error('ERROR ', err);
   }
+  console.log(err.stack);
 
   res.status(statusCode).json({
     succees: false,

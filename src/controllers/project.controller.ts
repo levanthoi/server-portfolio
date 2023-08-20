@@ -8,6 +8,8 @@ export const getProjects = asyncHandler(async (req: Request, res: Response, next
     const projects = await getProjectsService();
 
     // const projects = await repositories.json();
+    console.log('project controller');
+
     res.json({
       data: projects,
       message: 'Danh sách dự án đã được lấy thành công',
