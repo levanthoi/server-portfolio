@@ -40,6 +40,9 @@ app.use(successMorgan);
 app.use(errorMorgan);
 
 // Route
+app.get('/', (req, res) => {
+  res.send('...');
+});
 app.use('/api/v1', router);
 
 // Error hanlder
