@@ -1,10 +1,12 @@
 import { envConfig } from '@configs/env.config';
-import fetch from 'node-fetch';
+import axios from 'axios';
 
-export const getProjectsService = async (): Promise<any> => {
-  //   const repositories = await fetch(envConfig.API_GITHUB_REPO, {
-  //     headers: { Authorization: 'token ' + envConfig.GH_TOKEN },
-  //   });
-  //   return repositories.json();
-  return 'âs';
+export const getProjectsService = async () => {
+  const response = await axios.get(envConfig.API_GITHUB_REPO, {
+    headers: { Authorization: 'token ' + envConfig.GH_TOKEN },
+  });
+  const { data } = response;
+
+  const projects = data?.filter((item: any) => item.fork === false);
+  return projects;
 };

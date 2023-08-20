@@ -27,7 +27,6 @@ export const errorHandler: ErrorRequestHandler = (
   next: NextFunction,
 ) => {
   const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
-  console.log('err', statusCode);
 
   // Logger
   if (!isDev) {
