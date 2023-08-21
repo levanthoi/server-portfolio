@@ -14,6 +14,10 @@ export interface ITrafficView {
   uniques: number;
 }
 
+export interface ILanguage {
+  [key: string]: number;
+}
+
 export interface IProject {
   id: number;
   name: string;
@@ -25,6 +29,9 @@ export interface IProject {
   forks: number;
   stargazers_count: number;
   contributors: IContributors[];
+  trafficViews: ITrafficView;
+  trafficClones: ITrafficClone;
+  languages: ILanguage;
   created_at: Date;
   updated_at: Date;
 }

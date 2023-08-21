@@ -1,9 +1,10 @@
 import fs from 'fs';
+import path from 'path';
 import winston from 'winston';
 import winstonDaily from 'winston-daily-rotate-file';
 
-//log Dir
-const logDir: string = '../logs';
+// Đường dẫn thư mục logs
+const logDir: string = path.join(__dirname, '../src/logs');
 
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
