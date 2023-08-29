@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\.167c28692a767c88ba92742eeeba2898446061ff-audit.json",
+    "files": [
+        {
+            "date": 1693327682678,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\2023-08-29.log",
+            "hash": "10d76d6eb528f5a1af98a8537df78e53c443b218c755b2501e3a9bc28cb30834"
+        }
+    ],
+    "hashType": "sha256"
+}

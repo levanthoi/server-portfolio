@@ -15,7 +15,7 @@ const optionsCors = {
   origin:
     process.env.NODE_ENV === 'production'
       ? 'https://profile-beta-eight.vercel.app/'
-      : 'http://localhost:3000',
+      : 'http://127.0.0.1:5173',
   methods: ['GET', 'PUT', 'POST', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
