@@ -21,6 +21,7 @@ const optionsCors = {
   credentials: true,
 };
 // Implement
+app.use(cors());
 app.use(cors(optionsCors));
 // SECURE HEADER HTTP
 app.use(helmet());
