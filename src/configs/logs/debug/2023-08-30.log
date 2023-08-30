@@ -273,3 +273,4 @@
 2023-08-30 23:33:07 error: GET /api/v1/projects 500 - 785.304 ms - message: -
 2023-08-30 23:33:11 error: GET /api/v1/projects 500 - 784.120 ms - message: -
 2023-08-30 23:33:11 error: GET /api/v1/projects 500 - 785.631 ms - message: -
+2023-08-30 23:37:58 info: Listen port 8080
