@@ -1,0 +1,15 @@
+2023-09-03 00:05:13 info: GET /api/v1/upload/resources 200 - 284.958 ms
+2023-09-03 00:05:25 info: Listen port 8080
+2023-09-03 00:05:28 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-03 00:12:59 info: Listen port 8080
+2023-09-03 00:13:02 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-03 22:11:13 info: Listen port 8080
+2023-09-03 22:35:01 info: Listen port 8080
+2023-09-03 22:37:31 info: Listen port 8080
+2023-09-03 22:38:01 info: GET /api/v1/upload/root-folder 200 - 1157.148 ms
+2023-09-03 22:39:52 info: Listen port 8080
+2023-09-03 22:45:13 info: Listen port 8080
+2023-09-03 22:45:15 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-03 22:47:56 info: GET /api/v1/upload/resources 200 - 274.691 ms
+2023-09-03 22:48:05 info: GET /api/v1/upload/resources 200 - 261.432 ms
+2023-09-03 22:49:30 info: GET /api/v1/upload/resources 200 - 261.363 ms

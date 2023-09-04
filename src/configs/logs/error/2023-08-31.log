@@ -1,0 +1,22 @@
+2023-08-31 23:25:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.ts[0m:[93m4[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"D:/nextjs/server-portfolio/src/routes/upload.route"' has no default export.
+
+[7m4[0m import uploadRoute from '@routes/upload.route';
+[7m [0m [91m       ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/index.ts[0m:[93m4[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"D:/nextjs/server-portfolio/src/routes/upload.route"' has no default export.
+
+[7m4[0m import uploadRoute from '@routes/upload.route';
+[7m [0m [91m       ~~~~~~~~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

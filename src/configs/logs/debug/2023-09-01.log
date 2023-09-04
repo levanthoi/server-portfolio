@@ -1,0 +1,67 @@
+2023-09-01 09:35:15 info: Listen port 8080
+2023-09-01 09:35:17 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 09:41:41 error: GET /api/v1/upload 404 - 10.605 ms - message: -
+2023-09-01 09:42:10 error: GET /api/v1/upload/ 404 - 1.641 ms - message: -
+2023-09-01 09:42:37 info: Listen port 8080
+2023-09-01 09:42:39 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 09:43:45 info: Listen port 8080
+2023-09-01 09:43:47 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 09:44:25 info: Listen port 8080
+2023-09-01 09:44:28 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 09:44:49 info: Listen port 8080
+2023-09-01 09:44:51 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 10:00:59 info: Listen port 8080
+2023-09-01 10:01:02 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 10:01:48 info: Listen port 8080
+2023-09-01 10:01:50 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 10:04:19 info: Listen port 8080
+2023-09-01 10:04:21 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 10:04:29 info: Listen port 8080
+2023-09-01 10:04:32 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 13:11:24 info: Mongoose Connection is Disconnected.
+2023-09-01 13:11:35 info: Mongoose Connected to Database
+2023-09-01 13:28:35 info: Mongoose Connection is Disconnected.
+2023-09-01 13:28:46 info: Mongoose Connected to Database
+2023-09-01 19:12:33 info: Mongoose Connection is Disconnected.
+2023-09-01 19:12:44 info: Mongoose Connected to Database
+2023-09-01 20:46:42 info: Listen port 8080
+2023-09-01 20:46:44 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:47:11 info: Listen port 8080
+2023-09-01 20:47:14 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:47:35 info: Listen port 8080
+2023-09-01 20:47:37 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:52:04 info: Listen port 8080
+2023-09-01 20:52:07 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:55:07 info: Listen port 8080
+2023-09-01 20:55:10 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:57:33 info: Listen port 8080
+2023-09-01 20:57:36 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:58:30 info: Listen port 8080
+2023-09-01 20:58:33 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 20:58:45 info: Listen port 8080
+2023-09-01 20:58:48 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 21:06:22 info: POST /api/v1/upload/ 200 - 2316.173 ms
+2023-09-01 21:10:17 info: Listen port 8080
+2023-09-01 21:10:19 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 21:12:25 info: Listen port 8080
+2023-09-01 21:12:28 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:20:28 info: Listen port 8080
+2023-09-01 22:20:30 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:26:26 info: Listen port 8080
+2023-09-01 22:26:29 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:29:24 info: Listen port 8080
+2023-09-01 22:29:27 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:31:31 info: Listen port 8080
+2023-09-01 22:31:39 info: Listen port 8080
+2023-09-01 22:31:41 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:32:39 info: Listen port 8080
+2023-09-01 22:32:42 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:33:13 info: Listen port 8080
+2023-09-01 22:33:15 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:38:20 info: Listen port 8080
+2023-09-01 22:38:23 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 22:41:48 info: Listen port 8080
+2023-09-01 22:41:50 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 23:12:04 info: Listen port 8080
+2023-09-01 23:12:07 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-01 23:13:31 info: POST /api/v1/upload/ 200 - 3616.629 ms

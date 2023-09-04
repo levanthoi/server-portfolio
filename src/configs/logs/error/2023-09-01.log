@@ -1,0 +1,2 @@
+2023-09-01 09:41:41 error: GET /api/v1/upload 404 - 10.605 ms - message: -
+2023-09-01 09:42:10 error: GET /api/v1/upload/ 404 - 1.641 ms - message: -

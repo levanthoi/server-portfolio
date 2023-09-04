@@ -14,6 +14,36 @@
             "date": 1693381000351,
             "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-08-30.log",
             "hash": "2f2f3635d99b8d9406fc062633de7c0e73955bf9039dea79279a8989b0062f84"
+        },
+        {
+            "date": 1693461751098,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-08-31.log",
+            "hash": "cf377dc009cddde7706e6af8515365fe03fc16828b7721c3bfb0a9fb8386d2e6"
+        },
+        {
+            "date": 1693535706719,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-09-01.log",
+            "hash": "3206ca81f3aea2fd36281cd5d4c0ea9ed6e6bfe2622dedbd63efb7bbbc214abb"
+        },
+        {
+            "date": 1693623387231,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-09-02.log",
+            "hash": "8110ee81fb5be8d60db49c8e8b22aa543868896c344663971f376143950bdfb0"
+        },
+        {
+            "date": 1693674318975,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-09-03.log",
+            "hash": "a35fce70b19eccb404c70a3410cd0cfc2e230031b96d160fd0e4974ec2031393"
+        },
+        {
+            "date": 1693825076404,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-09-04.log",
+            "hash": "5cc8818f21f5e5e76b41a191748d794481d63009a8036c48a78c689bfc3b650e"
+        },
+        {
+            "date": 1693847008455,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\error\\2023-09-05.log",
+            "hash": "3c490836e324f14ce24b8d84f74f92507d7663127717b110ae8ae3452f0da84d"
         }
     ],
     "hashType": "sha256"

@@ -1,0 +1,42 @@
+2023-09-03 22:11:43 error: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:805:11)
+    at NativeConnection.openUri (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:780:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-09-03 22:35:32 error: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:805:11)
+    at NativeConnection.openUri (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:780:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-09-03 22:37:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/upload.controller.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@interfaces/custom.interface"' has no exported member 'IRequestBody'.
+
+[7m1[0m import { IRequestBody } from '@interfaces/custom.interface';
+[7m [0m [91m         ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/upload.controller.ts[0m:[93m1[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@interfaces/custom.interface"' has no exported member 'IRequestBody'.
+
+[7m1[0m import { IRequestBody } from '@interfaces/custom.interface';
+[7m [0m [91m         ~~~~~~~~~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-03 22:38:01 error: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:805:11)
+    at NativeConnection.openUri (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:780:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-09-03 22:40:22 error: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:805:11)
+    at NativeConnection.openUri (D:\nextjs\server-portfolio\node_modules\mongoose\lib\connection.js:780:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

@@ -1,0 +1,38 @@
+2023-09-02 23:50:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/upload.service.ts[0m:[93m23[0m:[93m33[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 5, '(filter: FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>, projection?: ProjectionType<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }> | null | undefined, options?: QueryOptions<...> | ... 1 more ... | undefined): Query<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+      Type 'string' is not assignable to type 'RootQuerySelector<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+  Overload 2 of 5, '(filter: FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>, projection?: ProjectionType<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }> | null | undefined): Query<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+  Overload 3 of 5, '(filter: FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>): Query<(Document<unknown, {}, { url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }> & { ...; } & { ...; })[], Document<...> & ... 1 more ... & { ...; }, {}, { ...; }, "find">', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+
+[7m23[0m   const res = await Upload.find('');
+[7m  [0m [91m                                ~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/upload.service.ts[0m:[93m23[0m:[93m33[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 5, '(filter: FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>, projection?: ProjectionType<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }> | null | undefined, options?: QueryOptions<...> | ... 1 more ... | undefined): Query<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+      Type 'string' is not assignable to type 'RootQuerySelector<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+  Overload 2 of 5, '(filter: FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>, projection?: ProjectionType<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }> | null | undefined): Query<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+  Overload 3 of 5, '(filter: FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>): Query<(Document<unknown, {}, { url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }> & { ...; } & { ...; })[], Document<...> & ... 1 more ... & { ...; }, {}, { ...; }, "find">', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'FilterQuery<{ url?: string | undefined; uid?: string | undefined; folder?: string | undefined; }>'.
+
+[7m23[0m   const res = await Upload.find('');
+[7m  [0m [91m                                ~~[0m
+
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
