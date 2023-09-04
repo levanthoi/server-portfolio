@@ -1,0 +1,3 @@
+2023-09-05 00:05:46 error: GET /api/v1/auth 404 - 7.462 ms - message: -
+2023-09-05 00:05:56 error: POST /api/v1/auth 404 - 1.714 ms - message: -
+2023-09-05 00:06:17 error: POST /api/v1/auth/ 404 - 2.992 ms - message: -

@@ -1,0 +1,6 @@
+2023-09-05 00:03:36 info: Listen port 8080
+2023-09-05 00:03:45 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 00:05:46 error: GET /api/v1/auth 404 - 7.462 ms - message: -
+2023-09-05 00:05:56 error: POST /api/v1/auth 404 - 1.714 ms - message: -
+2023-09-05 00:06:17 error: POST /api/v1/auth/ 404 - 2.992 ms - message: -
+2023-09-05 00:21:44 info: POST /api/v1/auth/signup 200 - 537.233 ms
