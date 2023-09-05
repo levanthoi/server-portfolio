@@ -4,3 +4,52 @@
 2023-09-05 00:05:56 error: POST /api/v1/auth 404 - 1.714 ms - message: -
 2023-09-05 00:06:17 error: POST /api/v1/auth/ 404 - 2.992 ms - message: -
 2023-09-05 00:21:44 info: POST /api/v1/auth/signup 200 - 537.233 ms
+2023-09-05 08:50:51 info: Listen port 8080
+2023-09-05 08:50:54 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 08:51:19 error: POST /api/v1/auth/signup 500 - 267.018 ms - message: -
+2023-09-05 12:51:12 info: Mongoose Connection is Disconnected
+2023-09-05 12:51:27 info: Mongoose Connected to Database
+2023-09-05 16:32:37 info: Mongoose Connection is Disconnected
+2023-09-05 16:32:48 info: Mongoose Connected to Database
+2023-09-05 16:48:56 error: POST /api/v1/auth/signup 500 - 1676.454 ms - message: -
+2023-09-05 18:34:41 info: Mongoose Connection is Disconnected
+2023-09-05 18:34:52 info: Mongoose Connected to Database
+2023-09-05 19:17:32 info: Listen port 8080
+2023-09-05 19:17:35 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 19:18:12 info: Listen port 8080
+2023-09-05 19:18:15 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 19:21:48 info: POST /api/v1/auth/login 200 - 265.308 ms
+2023-09-05 19:25:14 error: POST /api/v1/auth/login 500 - 248.464 ms - message: -
+2023-09-05 21:38:40 info: Mongoose Connection is Disconnected
+2023-09-05 21:38:51 info: Mongoose Connected to Database
+2023-09-05 22:41:54 info: Listen port 8080
+2023-09-05 22:41:57 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 22:44:10 info: Listen port 8080
+2023-09-05 22:44:12 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 22:44:46 info: Listen port 8080
+2023-09-05 22:44:48 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 22:51:49 info: Listen port 8080
+2023-09-05 22:51:52 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 22:56:42 info: Listen port 8080
+2023-09-05 22:56:45 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 22:58:54 info: Listen port 8080
+2023-09-05 22:58:57 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 23:00:29 info: Listen port 8080
+2023-09-05 23:00:31 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 23:04:12 info: POST /api/v1/auth/login 200 - 2575.154 ms
+2023-09-05 23:04:43 error: POST /api/v1/user/login 404 - 4.129 ms - message: -
+2023-09-05 23:08:26 info: Listen port 8080
+2023-09-05 23:08:28 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 23:09:41 info: Listen port 8080
+2023-09-05 23:09:43 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 23:30:09 info: Listen port 8080
+2023-09-05 23:30:11 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 23:30:14 error: POST /api/v1/auth/login 500 - 256.743 ms - message: -
+2023-09-05 23:30:20 error: POST /api/v1/auth/login 500 - 242.085 ms - message: -
+2023-09-05 23:30:27 error: POST /api/v1/auth/login 500 - 241.864 ms - message: -
+2023-09-05 23:45:37 error: POST /api/v1/auth/signup 500 - 261.899 ms - message: -
+2023-09-05 23:47:24 info: POST /api/v1/auth/signup 200 - 523.502 ms
+2023-09-05 23:54:40 info: Listen port 8080
+2023-09-05 23:54:43 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-05 23:55:03 info: POST /api/v1/auth/signup 200 - 735.787 ms
+2023-09-05 23:58:54 info: POST /api/v1/auth/login 200 - 625.332 ms

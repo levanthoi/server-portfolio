@@ -1,3 +1,121 @@
 2023-09-05 00:05:46 error: GET /api/v1/auth 404 - 7.462 ms - message: -
 2023-09-05 00:05:56 error: POST /api/v1/auth 404 - 1.714 ms - message: -
 2023-09-05 00:06:17 error: POST /api/v1/auth/ 404 - 2.992 ms - message: -
+2023-09-05 08:51:19 error: POST /api/v1/auth/signup 500 - 267.018 ms - message: -
+2023-09-05 16:48:56 error: POST /api/v1/auth/signup 500 - 1676.454 ms - message: -
+2023-09-05 19:25:14 error: POST /api/v1/auth/login 500 - 248.464 ms - message: -
+2023-09-05 23:04:43 error: POST /api/v1/user/login 404 - 4.129 ms - message: -
+2023-09-05 23:12:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-05 23:14:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-05 23:26:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-05 23:26:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-05 23:29:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m22[0m:[93m9[0m - [91merror[0m[90m TS2740: [0mType '{ accessToken: string; refreshToken: string; }' is missing the following properties from type 'IUser': name, email, password, confirmPassword, and 254 more.
+
+[7m22[0m         data: result,
+[7m  [0m [91m        ~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-05 23:30:14 error: POST /api/v1/auth/login 500 - 256.743 ms - message: -
+2023-09-05 23:30:20 error: POST /api/v1/auth/login 500 - 242.085 ms - message: -
+2023-09-05 23:30:27 error: POST /api/v1/auth/login 500 - 241.864 ms - message: -
+2023-09-05 23:45:37 error: POST /api/v1/auth/signup 500 - 261.899 ms - message: -

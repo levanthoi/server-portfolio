@@ -46,13 +46,10 @@ UserSchema.pre('save', async function (next) {
   // eslint disabled @typescript-eslint/no-this-alias
   const user = this;
   if (user.isModified('password')) {
-    const saltRounds = 10;
-    bcrypt.genSalt(saltRounds, function (err, salt) {
-      bcrypt.hash(user.password, salt, function (err, hash) {
-        user.password = hash;
-        user.confirmPassword = hash;
-      });
-    });
+    const salt = await bcrypt.genSalt(10);
+    const hash = await bcrypt.hash(user.password, salt);
+    user.password = hash;
+    user.confirmPassword = hash;
   }
   next();
 });
