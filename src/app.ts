@@ -1,12 +1,13 @@
-import express, { Express } from 'express';
-import cors from 'cors';
-import helmet from 'helmet';
-import hpp from 'hpp';
 import compression from 'compression';
 import cookieParser from 'cookie-parser';
-import router from '@routes/index';
-import { errorMorgan, successMorgan } from '@middlewares/morgan.middleware';
+import cors from 'cors';
+import express, { Express } from 'express';
+import helmet from 'helmet';
+import hpp from 'hpp';
+
 import { errorHandler, notFound } from '@middlewares/error.middleware';
+import { errorMorgan, successMorgan } from '@middlewares/morgan.middleware';
+import router from '@routes/index';
 
 const app: Express = express();
 
@@ -25,7 +26,7 @@ app.use(cors());
 app.use(cors(optionsCors));
 // SECURE HEADER HTTP
 app.use(helmet());
-//Protect Parameter Pollution
+// Protect Parameter Pollution
 app.use(hpp());
 app.use(express.json());
 app.use(

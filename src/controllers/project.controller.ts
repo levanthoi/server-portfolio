@@ -1,14 +1,14 @@
-import { logger } from '@configs/logger.config';
-import { getProjectsService } from '@services/project.service';
 import { NextFunction, Request, Response } from 'express';
 import asyncHandler from 'express-async-handler';
+
+import { logger } from '@configs/logger.config';
+import { getProjectsService } from '@services/project.service';
 
 export const getProjects = asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
   try {
     const projects = await getProjectsService();
 
     // const projects = await repositories.json();
-    console.log('project controller');
 
     res.json({
       data: projects,
@@ -18,7 +18,6 @@ export const getProjects = asyncHandler(async (req: Request, res: Response, next
     });
   } catch (error: any) {
     // throw new Error(error);
-    console.log('err project', error);
     next(error);
   }
 });

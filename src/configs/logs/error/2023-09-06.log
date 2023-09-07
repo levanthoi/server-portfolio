@@ -1,0 +1,76 @@
+2023-09-06 10:47:21 error: uncaughtException: Chỉ chấp chận Authorization Bearer.
+Error: Chỉ chấp chận Authorization Bearer.
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:12:11
+    at Generator.next (<anonymous>)
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:12)
+    at auth (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:79)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+2023-09-06 10:48:25 error: uncaughtException: Chỉ chấp chận Authorization Bearer.
+Error: Chỉ chấp chận Authorization Bearer.
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:13:11
+    at Generator.next (<anonymous>)
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:12)
+    at auth (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:79)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+2023-09-06 10:50:55 error: uncaughtException: Chỉ chấp chận Authorization Bearer.
+Error: Chỉ chấp chận Authorization Bearer.
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:17:11
+    at Generator.next (<anonymous>)
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:12)
+    at auth (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:79)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+2023-09-06 10:53:10 error: uncaughtException: Lỗi auth
+Error: Lỗi auth
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:17:11
+    at Generator.next (<anonymous>)
+    at D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:12)
+    at auth (D:\nextjs\server-portfolio\src\middlewares\auth.middleware.ts:4:79)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\nextjs\server-portfolio\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\nextjs\server-portfolio\node_modules\express\lib\router\layer.js:95:5)
+2023-09-06 10:57:28 error: POST /api/v1/upload/ 500 - 10.586 ms - message: -
+2023-09-06 10:59:23 error: POST /api/v1/upload/ 500 - 3.485 ms - message: -
+2023-09-06 10:59:33 error: POST /api/v1/upload/ 500 - 3.605 ms - message: -
+2023-09-06 11:02:58 error: POST /api/v1/upload/ 500 - 8.925 ms - message: -
+2023-09-06 18:30:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m15[0m:[93m45[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | JwtPayload'.
+  Property 'id' does not exist on type 'string'.
+
+[7m15[0m         const user = User.findById(decoded?.id);
+[7m  [0m [91m                                            ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m15[0m:[93m45[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | JwtPayload'.
+  Property 'id' does not exist on type 'string'.
+
+[7m15[0m         const user = User.findById(decoded?.id);
+[7m  [0m [91m                                            ~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

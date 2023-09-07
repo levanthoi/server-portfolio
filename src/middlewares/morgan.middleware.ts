@@ -1,6 +1,7 @@
-import { logger } from '@configs/logger.config';
 import { Request, Response } from 'express';
 import morgan from 'morgan';
+
+import { logger } from '@configs/logger.config';
 
 morgan.token('message', (req: Request, res: Response) => res.locals.message || '');
 

@@ -1,8 +1,9 @@
 import express from 'express';
+
+import authRoute from '@routes/auth.route';
 import blogRoute from '@routes/blog.route';
 import projectRoute from '@routes/project.route';
 import uploadRoute from '@routes/upload.route';
-import authRoute from '@routes/auth.route';
 
 const router = express.Router();
 

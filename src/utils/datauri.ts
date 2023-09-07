@@ -1,4 +1,5 @@
 import DatauriParser from 'datauri/parser';
+
 const parser = new DatauriParser();
 
 // Data uri helper function

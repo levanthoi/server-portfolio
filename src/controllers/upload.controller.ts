@@ -1,8 +1,9 @@
 // import { IRequestBody } from '@interfaces/custom.interface';
-import { getResources, getRootFolders } from '@middlewares/cloudinary';
-import { getFileSerVice, uploadService } from '@services/upload.service';
 import { NextFunction, Request, Response } from 'express';
 import expressAsyncHandler from 'express-async-handler';
+
+import { getResources, getRootFolders } from '@middlewares/cloudinary';
+import { getFileSerVice, uploadService } from '@services/upload.service';
 
 export const postUpload = expressAsyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {

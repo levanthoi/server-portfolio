@@ -1,5 +1,6 @@
-import { logger } from '@configs/logger.config';
 import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
+
+import { logger } from '@configs/logger.config';
 
 const isDev = process.env.NODE_ENV === 'development';
 
@@ -20,7 +21,7 @@ interface StatusError extends Error {
 // not found
 export const notFound = (req: Request, res: Response, next: NextFunction) => {
   const error = new Error(`Not Found: ${req.originalUrl}`) as StatusError;
-  error['status'] = 404;
+  error.status = 404;
   // console.log('err notfound ', error);
   next(error);
 };
@@ -31,7 +32,7 @@ export const errorHandler: ErrorRequestHandler = (
   res: Response,
   next: NextFunction,
 ) => {
-  const statusCode = err['status'] || 500;
+  const statusCode = err.status || 500;
 
   // Logger
   if (!isDev) {

@@ -1,6 +1,5 @@
-import multer from 'multer';
-import { envConfig } from '@configs/env.config';
 import { Request } from 'express';
+import multer from 'multer';
 
 const storage = multer.memoryStorage();
 

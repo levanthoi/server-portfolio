@@ -1,9 +1,10 @@
+import { NextFunction, Request, Response } from 'express';
+import expressAsyncHandler from 'express-async-handler';
+
 import { ICustomRes } from '@interfaces/custom.interface';
 import { IAuth } from '@interfaces/token.interface';
 import { IUser } from '@interfaces/user.interface';
 import { loginService, singupService } from '@services/auth.service';
-import { NextFunction, Request, Response } from 'express';
-import expressAsyncHandler from 'express-async-handler';
 
 export const singup = expressAsyncHandler(
   async (req: Request, res: Response<ICustomRes<IUser>>, next: NextFunction) => {

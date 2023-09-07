@@ -23,7 +23,7 @@ export const loginService = async (body: IUser) => {
   if (findUser && (await findUser.isPasswordMatched(password))) {
     const tokens = await generateAuthToken(findUser._id);
     return tokens;
-  } else {
+  } 
     throw new Error('Tài khoản hoặc mật khẩu sai.');
-  }
+  
 };

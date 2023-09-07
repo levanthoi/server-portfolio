@@ -1,16 +1,60 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["@typescript-eslint", "prettier","simple-import-sort","import"],
   "extends": [
     "eslint:recommended",
+    "airbnb-base",
+    "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
     "eslint-config-prettier",
-    "prettier"
+    "prettier",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": "off",
-    "@typescript-eslint/no-this-alias": "off"
+    "@typescript-eslint/no-this-alias": "off",
+
+    "import/prefer-default-export": "off",
+    "no-console": "off",
+    "func-names":"off",
+    "no-underscore-dangle":"off",
+
+    "import/no-unresolved": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          ["builtin", "external"],
+          ["internal", "parent", "sibling", "index"]
+        ],
+         "newlines-between": "always",
+         "alphabetize": {
+          /* sort in ascending order. Options: ["ignore", "asc", "desc"] */
+          "order": "asc",
+          /* ignore case. Options: [true, false] */
+          "caseInsensitive": true
+        }
+      }
+    ]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+        // Choose from one of the "project" configs below or omit to use <root>/tsconfig.json by default
+        // use <root>/path/to/folder/tsconfig.json
+        "project": "./tsconfig.json"
+      }
+    }
   }
 }

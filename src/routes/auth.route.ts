@@ -1,5 +1,6 @@
-import { login, singup } from '@controllers/auth.controller';
 import express from 'express';
+
+import { login, singup } from '@controllers/auth.controller';
 
 const router = express.Router();
 

@@ -1,7 +1,14 @@
-import { envConfig } from '@configs/env.config';
-import Auth from '@models/auth.model';
 import jwt from 'jsonwebtoken';
 import { Types } from 'mongoose';
+
+import { envConfig } from '@configs/env.config';
+import Auth from '@models/auth.model';
+
+export const generateToken = (id: Types.ObjectId) =>
+  jwt.sign({ id }, envConfig.JWT_SECRET_ACCESSTOKEN, { expiresIn: '1d' });
+
+export const generateRefreshToken = (id: Types.ObjectId) =>
+  jwt.sign({ id }, envConfig.JWT_SECRET_REFRESHTOKEN, { expiresIn: '3d' });
 
 export const generateAuthToken = async (userId: Types.ObjectId) => {
   const accessToken = generateToken(userId);
@@ -19,10 +26,7 @@ export const generateAuthToken = async (userId: Types.ObjectId) => {
   };
 };
 
-export const generateToken = (id: Types.ObjectId) => {
-  return jwt.sign({ id }, envConfig.JWT_SECRET_ACCESSTOKEN, { expiresIn: '1d' });
-};
-
-export const generateRefreshToken = (id: Types.ObjectId) => {
-  return jwt.sign({ id }, envConfig.JWT_SECRET_REFRESHTOKEN, { expiresIn: '3d' });
+export const verify = (token: string) => {
+  const x = jwt.verify(token, envConfig.JWT_SECRET_ACCESSTOKEN);
+  return x;
 };
