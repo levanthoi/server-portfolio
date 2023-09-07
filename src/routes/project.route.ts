@@ -5,6 +5,6 @@ import { auth } from '@middlewares/auth.middleware';
 
 const router = express.Router();
 
-router.get('/', auth, getProjects);
+router.get('/', getProjects);
 
 export default router;
