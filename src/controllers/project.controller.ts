@@ -8,6 +8,7 @@ export const getProjects = asyncHandler(async (req: Request, res: Response, next
     // console.log('user', req.user);
 
     const projects = await getProjectsService(req.query);
+    console.log('project', projects);
 
     // const projects = await repositories.json();
 
@@ -17,6 +18,8 @@ export const getProjects = asyncHandler(async (req: Request, res: Response, next
       success: true,
     });
   } catch (error: any) {
+    console.log('khong call dc');
+
     // throw new Error(error);
     next(error);
   }
