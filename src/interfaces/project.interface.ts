@@ -38,8 +38,8 @@ export interface IProject {
 
 export interface IParams {
   visibility?: string;
-  per_page?: number;
-  page?: number;
+  per_page?: number | string;
+  page?: number | string;
   sort?: string;
   direction?: string;
 }
