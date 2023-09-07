@@ -3,6 +3,7 @@ import axios from 'axios';
 import { envConfig } from '@configs/env.config';
 import {
   IContributors,
+  IParams,
   IProject,
   ITrafficClone,
   ITrafficView,
@@ -97,9 +98,15 @@ const getRepoLanguages = async (owner: string, repo: string) => {
   return response.data;
 };
 
-export const getProjectsService = async () => {
-  const response = await axios.get(envConfig.API_GITHUB_REPO, {
-    headers: { Authorization: `token ${envConfig.GH_TOKEN}` },
+export const getProjectsService = async (params: IParams) => {
+  console.log(params);
+
+  const response = await axios.get(`${envConfig.API_GITHUB_REPO}`, {
+    headers: {
+      Authorization: `token ${envConfig.GH_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
+    },
+    params,
   });
   const { data } = response;
 
@@ -153,6 +160,6 @@ export const getProjectsService = async () => {
       };
     }),
   );
-  console.log('project service');
+  // console.log('project service');
   return projects;
 };

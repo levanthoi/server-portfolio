@@ -35,3 +35,11 @@ export interface IProject {
   created_at: Date;
   updated_at: Date;
 }
+
+export interface IParams {
+  visibility?: string;
+  per_page?: number;
+  page?: number;
+  sort?: string;
+  direction?: string;
+}

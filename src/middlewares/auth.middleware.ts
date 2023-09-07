@@ -20,7 +20,7 @@ export const auth = async (req: IRequest, res: Response, next: NextFunction) => 
         next();
       }
     } else {
-      throw new Error('Chỉ chấp chận Authorization Bearer.');
+      throw new Error('Bạn chưa đăng nhập.');
     }
   } catch (err) {
     next(err);

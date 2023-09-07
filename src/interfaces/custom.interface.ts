@@ -19,7 +19,7 @@ export interface IRequest extends Request {
   user?: IUser;
 }
 
-// export interface IRequestBody<T extends ReadableStream<Uint8Array> | null> extends Request {
-//   body: T;
-//   user?: IUser;
-// }
+export interface IRequestBody<T> extends Request {
+  body: T;
+  user?: IUser;
+}
