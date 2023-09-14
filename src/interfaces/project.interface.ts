@@ -19,6 +19,7 @@ export interface ILanguage {
 }
 
 export interface IProject {
+  _id: string;
   id: number;
   name: string;
   visibility: string;
