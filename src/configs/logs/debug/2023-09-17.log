@@ -1,0 +1,82 @@
+2023-09-17 00:01:35 info: GET /api/v1/projects 304 - 252.520 ms
+2023-09-17 00:01:47 info: Listen port 8080
+2023-09-17 00:01:50 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 00:07:26 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2079.859 ms
+2023-09-17 00:07:31 info: GET /api/v1/projects 304 - 276.154 ms
+2023-09-17 00:07:33 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2498.536 ms
+2023-09-17 00:07:43 info: GET /api/v1/projects 304 - 263.583 ms
+2023-09-17 00:07:46 info: GET /api/v1/projects 304 - 252.646 ms
+2023-09-17 00:07:49 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2814.119 ms
+2023-09-17 00:15:29 info: GET /api/v1/projects 304 - 258.867 ms
+2023-09-17 00:15:31 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 3184.781 ms
+2023-09-17 00:32:41 info: GET /api/v1/projects 304 - 260.958 ms
+2023-09-17 00:32:44 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 3025.082 ms
+2023-09-17 00:33:45 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2457.370 ms
+2023-09-17 00:33:50 info: GET /api/v1/projects/github?visibility=public&sort=pushed - - - ms
+2023-09-17 00:33:52 info: GET /api/v1/projects 304 - 255.339 ms
+2023-09-17 00:33:54 info: GET /api/v1/projects/github?visibility=public&sort=pushed 200 - 2557.330 ms
+2023-09-17 00:35:41 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 1952.130 ms
+2023-09-17 00:42:58 info: GET /api/v1/projects/github?visibility=public&sort=pushed 200 - 2501.632 ms
+2023-09-17 00:44:03 info: GET /api/v1/projects 304 - 267.346 ms
+2023-09-17 00:44:05 info: GET /api/v1/projects/github?visibility=public&sort=pushed 200 - 2541.127 ms
+2023-09-17 00:46:29 info: GET /api/v1/projects 304 - 255.326 ms
+2023-09-17 00:46:31 info: GET /api/v1/projects/github?visibility=public&sort=pushed 200 - 2688.314 ms
+2023-09-17 00:46:51 error: POST /api/v1/projects 500 - 11.621 ms - message: -
+2023-09-17 01:02:15 error: POST /api/v1/auth/login 500 - 354.974 ms - message: -
+2023-09-17 01:03:25 info: POST /api/v1/auth/login 200 - 712.973 ms
+2023-09-17 01:11:16 info: POST /api/v1/auth/login 200 - 578.539 ms
+2023-09-17 01:14:47 info: POST /api/v1/auth/login 200 - 583.506 ms
+2023-09-17 01:14:57 info: GET /api/v1/projects 304 - 279.143 ms
+2023-09-17 01:14:59 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2616.729 ms
+2023-09-17 01:15:12 info: GET /api/v1/projects 304 - 247.400 ms
+2023-09-17 01:15:15 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2885.586 ms
+2023-09-17 01:15:23 info: POST /api/v1/projects 200 - 573.030 ms
+2023-09-17 01:15:56 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2467.961 ms
+2023-09-17 01:16:00 info: GET /api/v1/projects 200 - 246.253 ms
+2023-09-17 01:16:03 info: GET /api/v1/projects/github?visibility=public&sort=pushed 304 - 2513.517 ms
+2023-09-17 16:07:34 info: Listen port 8080
+2023-09-17 16:07:37 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 16:08:20 info: GET /api/v1/projects 200 - 288.961 ms
+2023-09-17 16:08:29 info: GET /api/v1/projects/github?visibility=public&sort=pushed - - - ms
+2023-09-17 16:10:57 info: Listen port 8080
+2023-09-17 16:11:00 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 16:11:27 info: GET /api/v1/projects 304 - 270.027 ms
+2023-09-17 16:11:37 info: GET /api/v1/projects/github?visibility=public&sort=pushed - - - ms
+2023-09-17 16:37:06 info: GET /api/v1/projects/github?visibility=public&per_page=10&sort=pushed 200 - 1274.195 ms
+2023-09-17 16:37:26 info: GET /api/v1/projects 304 - 241.878 ms
+2023-09-17 16:37:28 info: GET /api/v1/projects/github?visibility=public&sort=pushed 200 - 2635.883 ms
+2023-09-17 16:59:52 info: Listen port 8080
+2023-09-17 17:00:10 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 17:18:44 info: Listen port 8080
+2023-09-17 17:18:46 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 17:27:46 info: GET /api/v1/projects/ 200 - 272.273 ms
+2023-09-17 17:29:29 error: PUT /api/v1/projects/6505dddbc120be13c46d19ac 404 - 7.408 ms - message: -
+2023-09-17 17:29:42 info: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 200 - 526.236 ms
+2023-09-17 17:29:50 info: GET /api/v1/projects/ 200 - 248.606 ms
+2023-09-17 17:30:02 info: GET /api/v1/projects/ 200 - 255.427 ms
+2023-09-17 17:38:25 info: Mongoose Connection is Disconnected
+2023-09-17 17:38:26 info: Mongoose Connected to Database
+2023-09-17 18:08:25 info: Listen port 8080
+2023-09-17 18:08:27 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 18:08:40 info: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 200 - 520.268 ms
+2023-09-17 18:08:45 info: GET /api/v1/projects/ 200 - 270.592 ms
+2023-09-17 18:12:40 info: Listen port 8080
+2023-09-17 18:12:42 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 18:12:49 error: DELETE /api/v1/projects/6505dddbc120be13c46d19a 500 - 319.090 ms - message: -
+2023-09-17 18:13:19 error: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 500 - 245.767 ms - message: -
+2023-09-17 18:13:30 error: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 500 - 268.394 ms - message: -
+2023-09-17 18:14:27 info: Listen port 8080
+2023-09-17 18:14:30 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 18:15:07 error: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 500 - 308.014 ms - message: -
+2023-09-17 18:15:55 info: Listen port 8080
+2023-09-17 18:15:58 info: MongoDB Connected: ac-diuctf8-shard-00-00.kafx490.mongodb.net.
+2023-09-17 18:16:15 info: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 200 - 574.413 ms
+2023-09-17 18:16:20 info: GET /api/v1/projects/ 200 - 267.800 ms
+2023-09-17 18:49:35 info: Mongoose Connection is Disconnected
+2023-09-17 18:49:46 info: Mongoose Connected to Database
+2023-09-17 19:51:27 info: GET /api/v1/projects 200 - 1810.873 ms
+2023-09-17 19:51:28 info: GET /api/v1/projects/github?visibility=public&sort=pushed 200 - 2565.655 ms
+2023-09-17 21:50:22 info: Mongoose Connection is Disconnected
+2023-09-17 21:50:33 info: Mongoose Connected to Database
+2023-09-17 21:50:35 info: GET /api/v1/projects 304 - 3035.742 ms
+2023-09-17 21:50:42 info: GET /api/v1/projects/github?visibility=public&sort=pushed - - - ms

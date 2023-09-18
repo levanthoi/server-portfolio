@@ -64,6 +64,26 @@
             "date": 1694712122152,
             "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\2023-09-15.log",
             "hash": "f1302bbc3613bc62afaeb10c3828c4c4e0731dc06aa49da0ad95d571bf4bb278"
+        },
+        {
+            "date": 1694798124688,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\2023-09-16.log",
+            "hash": "cfa221a6eb44f8cb3055feafa656b5bc87e5c7f1970a68959c210707af44ddce"
+        },
+        {
+            "date": 1694883695938,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\2023-09-17.log",
+            "hash": "3dcbf4505d2080842ee2a797181439b922ed941405fc1a202f117451ff2fe389"
+        },
+        {
+            "date": 1695029013771,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\2023-09-18.log",
+            "hash": "4544b94d2dac07c104b53f98105c8e9ad8ab390c93e097dc6770c087d6b61582"
+        },
+        {
+            "date": 1695057457673,
+            "name": "D:\\nextjs\\server-portfolio\\src\\configs\\logs\\debug\\2023-09-19.log",
+            "hash": "94f29fc9c6c62ca1b67385a07ca3c3e98e6adb9cb67dbffbb90fc2ada31b751e"
         }
     ],
     "hashType": "sha256"

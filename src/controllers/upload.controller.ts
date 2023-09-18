@@ -2,7 +2,8 @@
 import { NextFunction, Request, Response } from 'express';
 import expressAsyncHandler from 'express-async-handler';
 
-import { getResources, getRootFolders } from '@middlewares/cloudinary';
+import { IRequest } from '@interfaces/custom.interface';
+import { destroyFile, getResources, getRootFolders } from '@middlewares/cloudinary';
 import { getFileSerVice, uploadService } from '@services/upload.service';
 
 export const postUpload = expressAsyncHandler(
@@ -14,10 +15,28 @@ export const postUpload = expressAsyncHandler(
       if (!files) {
         throw new Error('No files were uploaded');
       }
-      await uploadService(files);
+      const images = await uploadService(files);
       // await Upload.create()
       res.json({
+        images,
         message: 'success',
+      });
+    } catch (error: any) {
+      next(error);
+    }
+  },
+);
+export const deleteUpload = expressAsyncHandler(
+  async (req: IRequest, res: Response, next: NextFunction) => {
+    try {
+      console.log(req.params);
+      const { id } = req.params;
+
+      const images = await destroyFile(id);
+      res.json({
+        images,
+        message: 'Xóa thành công',
+        success: true,
       });
     } catch (error: any) {
       next(error);

@@ -99,7 +99,7 @@ const getRepoLanguages = async (owner: string, repo: string) => {
 
 export const getProjectsService = async (params: IParams) => {
   // try {
-  console.log(params);
+  // console.log(params);
   const response = await axios.get(`${envConfig.API_GITHUB_REPO}`, {
     headers: {
       Authorization: `token ${envConfig.GH_TOKEN}`,
@@ -184,4 +184,7 @@ export const updateProjectService = async (body: IProject) => {
     new: true,
   });
   return project;
+};
+export const removeProjectService = async (id: any) => {
+  await Project.findByIdAndRemove({ _id: id });
 };

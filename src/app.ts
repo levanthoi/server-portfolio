@@ -13,10 +13,12 @@ const app: Express = express();
 
 // OPTIONS CORS
 const optionsCors = {
-  origin:
+  origin: [
     process.env.NODE_ENV === 'production'
       ? 'https://profile-beta-eight.vercel.app/'
       : 'http://127.0.0.1:5173',
+    'https://res.cloudinary.com/',
+  ],
   methods: ['GET', 'PUT', 'POST', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,

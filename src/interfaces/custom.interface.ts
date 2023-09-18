@@ -18,6 +18,9 @@ export interface IRequest extends Request {
   };
   user?: IUser;
 }
+export interface IRequestUser extends Request {
+  user: IUser;
+}
 
 export interface IRequestBody<T> extends Request {
   body: T;

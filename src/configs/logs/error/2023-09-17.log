@@ -1,0 +1,95 @@
+2023-09-17 00:46:51 error: POST /api/v1/projects 500 - 11.621 ms - message: -
+2023-09-17 01:02:15 error: POST /api/v1/auth/login 500 - 354.974 ms - message: -
+2023-09-17 17:01:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-17 17:05:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-17 17:10:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-17 17:18:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/project.route.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2305: [0mModule '"@controllers/project.controller"' has no exported member 'removeProject'.
+
+[7m9[0m   removeProject,
+[7m [0m [91m  ~~~~~~~~~~~~~[0m
+
+    at createTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\nextjs\server-portfolio\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-09-17 17:29:29 error: PUT /api/v1/projects/6505dddbc120be13c46d19ac 404 - 7.408 ms - message: -
+2023-09-17 18:12:49 error: DELETE /api/v1/projects/6505dddbc120be13c46d19a 500 - 319.090 ms - message: -
+2023-09-17 18:13:19 error: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 500 - 245.767 ms - message: -
+2023-09-17 18:13:30 error: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 500 - 268.394 ms - message: -
+2023-09-17 18:15:07 error: DELETE /api/v1/projects/6505dddbc120be13c46d19ac 500 - 308.014 ms - message: -

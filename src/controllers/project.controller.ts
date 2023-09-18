@@ -1,13 +1,14 @@
 import { NextFunction, Request, Response } from 'express';
 import asyncHandler from 'express-async-handler';
 
-import { IRequestBody } from '@interfaces/custom.interface';
+import { IRequest, IRequestBody, IRequestUser } from '@interfaces/custom.interface';
 import { IProject } from '@interfaces/project.interface';
 import {
   createProjectsService,
   getProjectService,
   getProjectsService,
   queryProjectsService,
+  removeProjectService,
   updateProjectService,
 } from '@services/project.service';
 
@@ -16,7 +17,7 @@ export const getProjects = asyncHandler(async (req: Request, res: Response, next
     // console.log('user', req.user);
 
     const projects = await getProjectsService(req.query);
-    console.log('project', projects);
+    // console.log('project', projects);
 
     // const projects = await repositories.json();
 
@@ -84,6 +85,20 @@ export const updateProject = asyncHandler(
       res.json({
         data: project,
         message: 'Chỉnh sửa dự án thành công',
+        success: true,
+      });
+    } catch (error: any) {
+      next(error);
+    }
+  },
+);
+export const removeProject = asyncHandler(
+  async (req: IRequest, res: Response, next: NextFunction) => {
+    try {
+      await removeProjectService(req.params.id);
+      res.json({
+        data: null,
+        message: 'Xóa dự án thành công',
         success: true,
       });
     } catch (error: any) {
