@@ -1,0 +1,4 @@
+2023-09-19 19:59:31 error: DELETE /api/v1/projects/65088764c27196287bb616dd 500 - 7.837 ms - message: -
+2023-09-19 20:13:06 error: DELETE /api/v1/projects/65099cb98a4ccd793105bd51 500 - 9.153 ms - message: -
+2023-09-19 20:20:55 error: DELETE /api/v1/projects/65099cb98a4ccd793105bd51 500 - 12.882 ms - message: -
+2023-09-19 20:25:26 error: DELETE /api/v1/projects/65099cb98a4ccd793105bd51 500 - 2.455 ms - message: -

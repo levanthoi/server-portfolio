@@ -41,7 +41,7 @@ export const errorHandler: ErrorRequestHandler = (
   // console.log('err handler', err.message);
 
   res.status(statusCode).json({
-    succees: false,
+    success: false,
     message: err.message || 'Internal Server Error',
     stack: isDev ? err?.stack : 'Stack Production',
   });
